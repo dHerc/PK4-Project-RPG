@@ -1,0 +1,64 @@
+\hypertarget{class_boss}{}\doxysection{Boss Class Reference}
+\label{class_boss}\index{Boss@{Boss}}
+Inheritance diagram for Boss\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_boss}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_boss_a506a67b3912be4af0eba1c8bcaa24c20}\label{class_boss_a506a67b3912be4af0eba1c8bcaa24c20}} 
+{\bfseries Boss} (float \&character\+\_\+offset\+\_\+x, float \&character\+\_\+offset\+\_\+y, double pos\+\_\+x, double pos\+\_\+y, string pathl, string pathr, int ID, \mbox{\hyperlink{class_renderer}{Renderer}} \&renderer, int hp, int dmg, int exp, int gold, int lvl, int move\+\_\+patern, int attack\+\_\+patern, int trigger\+\_\+type)
+\item 
+bool \mbox{\hyperlink{class_boss_ae55fa5f3e8ca51410e111debea9ad9ce}{Trigger}} (\mbox{\hyperlink{class_character}{Character}} \&character)
+\begin{DoxyCompactList}\small\item\em Funkcja uruchamiająca umiejętności specjalne bossa. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_boss_a10b6f19142210eda06e1e3e289c88ec7}{Dark\+Mage}} (\mbox{\hyperlink{class_character}{Character}} \&character)
+\begin{DoxyCompactList}\small\item\em Funkcja uruchamiania dla Mrocznego Maga. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_boss_a10b6f19142210eda06e1e3e289c88ec7}\label{class_boss_a10b6f19142210eda06e1e3e289c88ec7}} 
+\index{Boss@{Boss}!DarkMage@{DarkMage}}
+\index{DarkMage@{DarkMage}!Boss@{Boss}}
+\doxysubsubsection{\texorpdfstring{DarkMage()}{DarkMage()}}
+{\footnotesize\ttfamily bool Boss\+::\+Dark\+Mage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_character}{Character}} \&}]{character }\end{DoxyParamCaption})}
+
+
+
+Funkcja uruchamiania dla Mrocznego Maga. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & aktualna postać \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jeżeli mają zostać przyzwani sojusznicy, false w przeciwnym wypadku 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boss_ae55fa5f3e8ca51410e111debea9ad9ce}\label{class_boss_ae55fa5f3e8ca51410e111debea9ad9ce}} 
+\index{Boss@{Boss}!Trigger@{Trigger}}
+\index{Trigger@{Trigger}!Boss@{Boss}}
+\doxysubsubsection{\texorpdfstring{Trigger()}{Trigger()}}
+{\footnotesize\ttfamily bool Boss\+::\+Trigger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_character}{Character}} \&}]{character }\end{DoxyParamCaption})}
+
+
+
+Funkcja uruchamiająca umiejętności specjalne bossa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & aktualna postać \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jeżeli mają zostać przyzwani sojusznicy, false w przeciwnym wypadku 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Boss.\+h\item 
+Boss.\+cpp\end{DoxyCompactItemize}

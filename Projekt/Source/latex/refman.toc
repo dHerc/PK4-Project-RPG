@@ -1,0 +1,181 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Background Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Member Function Documentation}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Draw()}{5}{subsubsection.3.1.1.1}%
+\contentsline {section}{\numberline {3.2}Boss Class Reference}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Member Function Documentation}{6}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}DarkMage()}{6}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Trigger()}{6}{subsubsection.3.2.1.2}%
+\contentsline {section}{\numberline {3.3}Character Class Reference}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Description Class Reference}{7}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Member Function Documentation}{8}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Draw()}{8}{subsubsection.3.4.1.1}%
+\contentsline {section}{\numberline {3.5}Drops Class Reference}{8}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Member Function Documentation}{8}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}GetAmountOrID()}{9}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}GetType()}{9}{subsubsection.3.5.1.2}%
+\contentsline {section}{\numberline {3.6}Enemies Class Reference}{9}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Member Function Documentation}{10}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.1}atk\_basic()}{10}{subsubsection.3.6.1.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.2}atk\_disabled()}{10}{subsubsection.3.6.1.2}%
+\contentsline {subsubsection}{\numberline {3.6.1.3}Attack()}{10}{subsubsection.3.6.1.3}%
+\contentsline {subsubsection}{\numberline {3.6.1.4}mov\_basic()}{11}{subsubsection.3.6.1.4}%
+\contentsline {subsubsection}{\numberline {3.6.1.5}mov\_free()}{11}{subsubsection.3.6.1.5}%
+\contentsline {subsubsection}{\numberline {3.6.1.6}mov\_still()}{11}{subsubsection.3.6.1.6}%
+\contentsline {subsubsection}{\numberline {3.6.1.7}Move()}{12}{subsubsection.3.6.1.7}%
+\contentsline {section}{\numberline {3.7}Entities Class Reference}{12}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Member Function Documentation}{13}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Draw()}{13}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Get\_ID()}{13}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}Get\_x()}{13}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}Get\_y()}{13}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.5}Set\_x()}{13}{subsubsection.3.7.1.5}%
+\contentsline {subsubsection}{\numberline {3.7.1.6}Set\_y()}{14}{subsubsection.3.7.1.6}%
+\contentsline {section}{\numberline {3.8}Equipement Class Reference}{14}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Member Function Documentation}{15}{subsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.1}AddItem()}{15}{subsubsection.3.8.1.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.2}Change\_slot()}{15}{subsubsection.3.8.1.2}%
+\contentsline {subsubsection}{\numberline {3.8.1.3}ChangeSelectedItem()}{15}{subsubsection.3.8.1.3}%
+\contentsline {subsubsection}{\numberline {3.8.1.4}Draw()}{15}{subsubsection.3.8.1.4}%
+\contentsline {subsubsection}{\numberline {3.8.1.5}Draw\_selection()}{16}{subsubsection.3.8.1.5}%
+\contentsline {subsubsection}{\numberline {3.8.1.6}Equip()}{16}{subsubsection.3.8.1.6}%
+\contentsline {subsubsection}{\numberline {3.8.1.7}Select\_slot()}{16}{subsubsection.3.8.1.7}%
+\contentsline {subsubsection}{\numberline {3.8.1.8}Selection\_armour()}{16}{subsubsection.3.8.1.8}%
+\contentsline {subsubsection}{\numberline {3.8.1.9}Selection\_sidearm()}{17}{subsubsection.3.8.1.9}%
+\contentsline {subsubsection}{\numberline {3.8.1.10}Selection\_skills()}{17}{subsubsection.3.8.1.10}%
+\contentsline {subsubsection}{\numberline {3.8.1.11}Selection\_weapon()}{17}{subsubsection.3.8.1.11}%
+\contentsline {section}{\numberline {3.9}Face Class Reference}{18}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Member Function Documentation}{18}{subsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.1.1}Draw()}{18}{subsubsection.3.9.1.1}%
+\contentsline {section}{\numberline {3.10}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logic Class Reference}{18}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Member Function Documentation}{19}{subsection.3.10.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.1}ActivateAltars()}{20}{subsubsection.3.10.1.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.2}CheckPickups()}{20}{subsubsection.3.10.1.2}%
+\contentsline {subsubsection}{\numberline {3.10.1.3}DealDamage()}{20}{subsubsection.3.10.1.3}%
+\contentsline {subsubsection}{\numberline {3.10.1.4}Draw()}{20}{subsubsection.3.10.1.4}%
+\contentsline {subsubsection}{\numberline {3.10.1.5}Enemy\_Movement()}{21}{subsubsection.3.10.1.5}%
+\contentsline {subsubsection}{\numberline {3.10.1.6}GetInteract()}{21}{subsubsection.3.10.1.6}%
+\contentsline {subsubsection}{\numberline {3.10.1.7}InitializeDrop()}{21}{subsubsection.3.10.1.7}%
+\contentsline {subsubsection}{\numberline {3.10.1.8}InitializeDrops()}{22}{subsubsection.3.10.1.8}%
+\contentsline {subsubsection}{\numberline {3.10.1.9}InitializeEnemies()}{22}{subsubsection.3.10.1.9}%
+\contentsline {subsubsection}{\numberline {3.10.1.10}InitializeEnemy()}{22}{subsubsection.3.10.1.10}%
+\contentsline {subsubsection}{\numberline {3.10.1.11}InitializeNPC()}{23}{subsubsection.3.10.1.11}%
+\contentsline {subsubsection}{\numberline {3.10.1.12}InitializeNPCs()}{24}{subsubsection.3.10.1.12}%
+\contentsline {subsubsection}{\numberline {3.10.1.13}Interact()}{24}{subsubsection.3.10.1.13}%
+\contentsline {subsubsection}{\numberline {3.10.1.14}Meele()}{24}{subsubsection.3.10.1.14}%
+\contentsline {subsubsection}{\numberline {3.10.1.15}Movement()}{25}{subsubsection.3.10.1.15}%
+\contentsline {subsubsection}{\numberline {3.10.1.16}Pickup()}{25}{subsubsection.3.10.1.16}%
+\contentsline {subsubsection}{\numberline {3.10.1.17}Regen()}{25}{subsubsection.3.10.1.17}%
+\contentsline {subsubsection}{\numberline {3.10.1.18}RenderFrame()}{25}{subsubsection.3.10.1.18}%
+\contentsline {subsubsection}{\numberline {3.10.1.19}ResetEnemies()}{26}{subsubsection.3.10.1.19}%
+\contentsline {subsubsection}{\numberline {3.10.1.20}Restart()}{26}{subsubsection.3.10.1.20}%
+\contentsline {subsubsection}{\numberline {3.10.1.21}SetEnemies()}{26}{subsubsection.3.10.1.21}%
+\contentsline {subsubsection}{\numberline {3.10.1.22}SideAttack()}{26}{subsubsection.3.10.1.22}%
+\contentsline {subsubsection}{\numberline {3.10.1.23}Skill()}{27}{subsubsection.3.10.1.23}%
+\contentsline {subsubsection}{\numberline {3.10.1.24}Swap()}{27}{subsubsection.3.10.1.24}%
+\contentsline {subsubsection}{\numberline {3.10.1.25}TakeDamage()}{27}{subsubsection.3.10.1.25}%
+\contentsline {subsubsection}{\numberline {3.10.1.26}TriggerBoss()}{28}{subsubsection.3.10.1.26}%
+\contentsline {subsubsection}{\numberline {3.10.1.27}TriggerEQ()}{28}{subsubsection.3.10.1.27}%
+\contentsline {subsubsection}{\numberline {3.10.1.28}UpdateStats()}{28}{subsubsection.3.10.1.28}%
+\contentsline {section}{\numberline {3.11}Index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer Class Reference}{28}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Member Function Documentation}{29}{subsection.3.11.1}%
+\contentsline {subsubsection}{\numberline {3.11.1.1}Bind()}{29}{subsubsection.3.11.1.1}%
+\contentsline {subsubsection}{\numberline {3.11.1.2}GetCount()}{29}{subsubsection.3.11.1.2}%
+\contentsline {subsubsection}{\numberline {3.11.1.3}Unbind()}{29}{subsubsection.3.11.1.3}%
+\contentsline {section}{\numberline {3.12}Item Class Reference}{29}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Member Function Documentation}{30}{subsection.3.12.1}%
+\contentsline {subsubsection}{\numberline {3.12.1.1}Bind\_description()}{30}{subsubsection.3.12.1.1}%
+\contentsline {subsubsection}{\numberline {3.12.1.2}Bind\_texture()}{30}{subsubsection.3.12.1.2}%
+\contentsline {subsubsection}{\numberline {3.12.1.3}bonus\_damage\_on\_grass()}{30}{subsubsection.3.12.1.3}%
+\contentsline {subsubsection}{\numberline {3.12.1.4}Get\_class()}{30}{subsubsection.3.12.1.4}%
+\contentsline {subsubsection}{\numberline {3.12.1.5}Get\_first\_stat()}{31}{subsubsection.3.12.1.5}%
+\contentsline {subsubsection}{\numberline {3.12.1.6}Get\_seccond\_stat()}{31}{subsubsection.3.12.1.6}%
+\contentsline {subsubsection}{\numberline {3.12.1.7}Get\_type()}{31}{subsubsection.3.12.1.7}%
+\contentsline {subsubsection}{\numberline {3.12.1.8}no\_effect()}{31}{subsubsection.3.12.1.8}%
+\contentsline {subsubsection}{\numberline {3.12.1.9}Trigger()}{32}{subsubsection.3.12.1.9}%
+\contentsline {section}{\numberline {3.13}Menu Class Reference}{32}{section.3.13}%
+\contentsline {subsection}{\numberline {3.13.1}Member Function Documentation}{32}{subsection.3.13.1}%
+\contentsline {subsubsection}{\numberline {3.13.1.1}Draw()}{32}{subsubsection.3.13.1.1}%
+\contentsline {subsubsection}{\numberline {3.13.1.2}Draw\_background()}{33}{subsubsection.3.13.1.2}%
+\contentsline {subsubsection}{\numberline {3.13.1.3}Draw\_buttons()}{33}{subsubsection.3.13.1.3}%
+\contentsline {subsubsection}{\numberline {3.13.1.4}Draw\_options\_buttons()}{33}{subsubsection.3.13.1.4}%
+\contentsline {section}{\numberline {3.14}Minimenu Class Reference}{34}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Member Function Documentation}{34}{subsection.3.14.1}%
+\contentsline {subsubsection}{\numberline {3.14.1.1}ChangeSelectedItem()}{34}{subsubsection.3.14.1.1}%
+\contentsline {subsubsection}{\numberline {3.14.1.2}CheckPrice()}{34}{subsubsection.3.14.1.2}%
+\contentsline {subsubsection}{\numberline {3.14.1.3}Draw()}{35}{subsubsection.3.14.1.3}%
+\contentsline {subsubsection}{\numberline {3.14.1.4}Draw\_background()}{35}{subsubsection.3.14.1.4}%
+\contentsline {subsubsection}{\numberline {3.14.1.5}Draw\_buttons()}{35}{subsubsection.3.14.1.5}%
+\contentsline {subsubsection}{\numberline {3.14.1.6}Draw\_item\_shop()}{36}{subsubsection.3.14.1.6}%
+\contentsline {subsubsection}{\numberline {3.14.1.7}GetConfirmation()}{36}{subsubsection.3.14.1.7}%
+\contentsline {subsubsection}{\numberline {3.14.1.8}GetItem()}{36}{subsubsection.3.14.1.8}%
+\contentsline {subsubsection}{\numberline {3.14.1.9}Set\_item\_list()}{36}{subsubsection.3.14.1.9}%
+\contentsline {section}{\numberline {3.15}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC Class Reference}{37}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Member Function Documentation}{37}{subsection.3.15.1}%
+\contentsline {subsubsection}{\numberline {3.15.1.1}Get\_menu\_items()}{38}{subsubsection.3.15.1.1}%
+\contentsline {subsubsection}{\numberline {3.15.1.2}Get\_menu\_sidearm()}{38}{subsubsection.3.15.1.2}%
+\contentsline {subsubsection}{\numberline {3.15.1.3}Get\_menu\_story()}{38}{subsubsection.3.15.1.3}%
+\contentsline {subsubsection}{\numberline {3.15.1.4}Interact()}{38}{subsubsection.3.15.1.4}%
+\contentsline {subsubsection}{\numberline {3.15.1.5}no\_interact()}{39}{subsubsection.3.15.1.5}%
+\contentsline {subsubsection}{\numberline {3.15.1.6}open\_mini\_menu()}{39}{subsubsection.3.15.1.6}%
+\contentsline {section}{\numberline {3.16}Overlay Class Reference}{39}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Member Function Documentation}{39}{subsection.3.16.1}%
+\contentsline {subsubsection}{\numberline {3.16.1.1}BindNumber()}{39}{subsubsection.3.16.1.1}%
+\contentsline {subsubsection}{\numberline {3.16.1.2}Draw()}{40}{subsubsection.3.16.1.2}%
+\contentsline {subsubsection}{\numberline {3.16.1.3}DrawBar()}{40}{subsubsection.3.16.1.3}%
+\contentsline {subsubsection}{\numberline {3.16.1.4}DrawGold()}{40}{subsubsection.3.16.1.4}%
+\contentsline {subsubsection}{\numberline {3.16.1.5}DrawLvl()}{41}{subsubsection.3.16.1.5}%
+\contentsline {subsubsection}{\numberline {3.16.1.6}DrawSideStacks()}{41}{subsubsection.3.16.1.6}%
+\contentsline {section}{\numberline {3.17}Owned Class Reference}{41}{section.3.17}%
+\contentsline {subsection}{\numberline {3.17.1}Member Function Documentation}{42}{subsection.3.17.1}%
+\contentsline {subsubsection}{\numberline {3.17.1.1}Add\_item()}{42}{subsubsection.3.17.1.1}%
+\contentsline {section}{\numberline {3.18}Projectiles Class Reference}{42}{section.3.18}%
+\contentsline {subsection}{\numberline {3.18.1}Member Function Documentation}{42}{subsection.3.18.1}%
+\contentsline {subsubsection}{\numberline {3.18.1.1}GetDamage()}{43}{subsubsection.3.18.1.1}%
+\contentsline {subsubsection}{\numberline {3.18.1.2}Move()}{43}{subsubsection.3.18.1.2}%
+\contentsline {section}{\numberline {3.19}Renderer Class Reference}{43}{section.3.19}%
+\contentsline {subsection}{\numberline {3.19.1}Member Function Documentation}{43}{subsection.3.19.1}%
+\contentsline {subsubsection}{\numberline {3.19.1.1}Clear()}{44}{subsubsection.3.19.1.1}%
+\contentsline {subsubsection}{\numberline {3.19.1.2}Draw()}{44}{subsubsection.3.19.1.2}%
+\contentsline {section}{\numberline {3.20}Shader Class Reference}{44}{section.3.20}%
+\contentsline {subsection}{\numberline {3.20.1}Member Function Documentation}{44}{subsection.3.20.1}%
+\contentsline {subsubsection}{\numberline {3.20.1.1}SetUniform1i()}{45}{subsubsection.3.20.1.1}%
+\contentsline {subsubsection}{\numberline {3.20.1.2}SetUniform2f()}{46}{subsubsection.3.20.1.2}%
+\contentsline {subsubsection}{\numberline {3.20.1.3}SetUniform4f()}{46}{subsubsection.3.20.1.3}%
+\contentsline {section}{\numberline {3.21}Shader\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Source Struct Reference}{47}{section.3.21}%
+\contentsline {section}{\numberline {3.22}Skills Class Reference}{47}{section.3.22}%
+\contentsline {subsection}{\numberline {3.22.1}Member Function Documentation}{47}{subsection.3.22.1}%
+\contentsline {subsubsection}{\numberline {3.22.1.1}Bind()}{47}{subsubsection.3.22.1.1}%
+\contentsline {section}{\numberline {3.23}Stats Class Reference}{47}{section.3.23}%
+\contentsline {section}{\numberline {3.24}stbi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}io\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}callbacks Struct Reference}{48}{section.3.24}%
+\contentsline {section}{\numberline {3.25}Story Class Reference}{49}{section.3.25}%
+\contentsline {subsection}{\numberline {3.25.1}Constructor \& Destructor Documentation}{49}{subsection.3.25.1}%
+\contentsline {subsubsection}{\numberline {3.25.1.1}Story()}{49}{subsubsection.3.25.1.1}%
+\contentsline {subsection}{\numberline {3.25.2}Member Function Documentation}{49}{subsection.3.25.2}%
+\contentsline {subsubsection}{\numberline {3.25.2.1}Draw()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{49}{subsubsection.3.25.2.1}%
+\contentsline {subsubsection}{\numberline {3.25.2.2}Draw()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{49}{subsubsection.3.25.2.2}%
+\contentsline {subsubsection}{\numberline {3.25.2.3}Trigger()}{50}{subsubsection.3.25.2.3}%
+\contentsline {section}{\numberline {3.26}Texture Class Reference}{50}{section.3.26}%
+\contentsline {subsection}{\numberline {3.26.1}Member Function Documentation}{50}{subsection.3.26.1}%
+\contentsline {subsubsection}{\numberline {3.26.1.1}Bind()}{50}{subsubsection.3.26.1.1}%
+\contentsline {subsubsection}{\numberline {3.26.1.2}GetBPP()}{51}{subsubsection.3.26.1.2}%
+\contentsline {subsubsection}{\numberline {3.26.1.3}GetHeight()}{51}{subsubsection.3.26.1.3}%
+\contentsline {subsubsection}{\numberline {3.26.1.4}GetWidth()}{51}{subsubsection.3.26.1.4}%
+\contentsline {subsubsection}{\numberline {3.26.1.5}Unbind()}{51}{subsubsection.3.26.1.5}%
+\contentsline {section}{\numberline {3.27}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Array Class Reference}{52}{section.3.27}%
+\contentsline {subsection}{\numberline {3.27.1}Member Function Documentation}{52}{subsection.3.27.1}%
+\contentsline {subsubsection}{\numberline {3.27.1.1}AddBuffer()}{52}{subsubsection.3.27.1.1}%
+\contentsline {subsubsection}{\numberline {3.27.1.2}Bind()}{52}{subsubsection.3.27.1.2}%
+\contentsline {subsubsection}{\numberline {3.27.1.3}Unbind()}{52}{subsubsection.3.27.1.3}%
+\contentsline {section}{\numberline {3.28}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer Class Reference}{53}{section.3.28}%
+\contentsline {subsection}{\numberline {3.28.1}Member Function Documentation}{53}{subsection.3.28.1}%
+\contentsline {subsubsection}{\numberline {3.28.1.1}Bind()}{53}{subsubsection.3.28.1.1}%
+\contentsline {subsubsection}{\numberline {3.28.1.2}Unbind()}{53}{subsubsection.3.28.1.2}%
+\contentsline {section}{\numberline {3.29}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element Struct Reference}{53}{section.3.29}%
+\contentsline {section}{\numberline {3.30}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Layout Class Reference}{54}{section.3.30}%
+\contentsline {chapter}{Index}{55}{section*.50}%

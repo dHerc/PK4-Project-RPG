@@ -1,0 +1,173 @@
+\hypertarget{class_item}{}\doxysection{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_item_aa5eaa1bc76c1f81667d9c5c1862e5c34}\label{class_item_aa5eaa1bc76c1f81667d9c5c1862e5c34}} 
+{\bfseries Item} (int stat1, int stat2, string name, int it\+\_\+type, int item\+\_\+class, int effect\+ID=0)
+\item 
+\mbox{\Hypertarget{class_item_a0b21a85f37887cd8a343830042431a38}\label{class_item_a0b21a85f37887cd8a343830042431a38}} 
+{\bfseries Item} (const \mbox{\hyperlink{class_item}{Item}} \&it)
+\item 
+int \mbox{\hyperlink{class_item_aefb69fb0bb9e9d93da6abf2f65f466c7}{Get\+\_\+type}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca typ przedmiotu. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_item_aacacd012e9cf6539f70d659091fd2bd9}{Get\+\_\+class}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca klasę danego przedmiotu. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_item_a19937c58253c648ddb75c336dd45bae6}{Get\+\_\+first\+\_\+stat}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca pierwszą statystykę danego przedmiotu. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_item_a310f06a7398847cdfd81e690aa1bb2e4}{Get\+\_\+seccond\+\_\+stat}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca drugą statystykę danego przedmiotu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_a9918fba363e5e80ac3d5bac8e3247981}{Bind\+\_\+texture}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przypisująca teksturę danego przedmiotu \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_ac0aea86d811be061fdb27802084f808e}{Bind\+\_\+description}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przypisaująca opis danego przedmiotu \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_a417d580267ebedac72f9bdcf6c24a41d}{Trigger}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]}, \mbox{\hyperlink{class_character}{Character}} \&character, bool mode)
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca efekt specjalny ekwipunku. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_af9ebae9e5e49b72ebe9b999440c6fbf0}{no\+\_\+effect}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]}, \mbox{\hyperlink{class_character}{Character}} \&character, bool mode)
+\begin{DoxyCompactList}\small\item\em Funkcja nie wywołująca żadnego specjalnego efektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_ab5f800cebdc91e9e7499563a82ef3c6c}{bonus\+\_\+damage\+\_\+on\+\_\+grass}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]}, \mbox{\hyperlink{class_character}{Character}} \&character, bool mode)
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca efekt specjalny zwiekszający obrażenia w trakcie stania na trawie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_item_ac0aea86d811be061fdb27802084f808e}\label{class_item_ac0aea86d811be061fdb27802084f808e}} 
+\index{Item@{Item}!Bind\_description@{Bind\_description}}
+\index{Bind\_description@{Bind\_description}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Bind\_description()}{Bind\_description()}}
+{\footnotesize\ttfamily void Item\+::\+Bind\+\_\+description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja przypisaująca opis danego przedmiotu 
+
+\mbox{\Hypertarget{class_item_a9918fba363e5e80ac3d5bac8e3247981}\label{class_item_a9918fba363e5e80ac3d5bac8e3247981}} 
+\index{Item@{Item}!Bind\_texture@{Bind\_texture}}
+\index{Bind\_texture@{Bind\_texture}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Bind\_texture()}{Bind\_texture()}}
+{\footnotesize\ttfamily void Item\+::\+Bind\+\_\+texture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja przypisująca teksturę danego przedmiotu 
+
+\mbox{\Hypertarget{class_item_ab5f800cebdc91e9e7499563a82ef3c6c}\label{class_item_ab5f800cebdc91e9e7499563a82ef3c6c}} 
+\index{Item@{Item}!bonus\_damage\_on\_grass@{bonus\_damage\_on\_grass}}
+\index{bonus\_damage\_on\_grass@{bonus\_damage\_on\_grass}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{bonus\_damage\_on\_grass()}{bonus\_damage\_on\_grass()}}
+{\footnotesize\ttfamily void Item\+::bonus\+\_\+damage\+\_\+on\+\_\+grass (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]},  }\item[{\mbox{\hyperlink{class_character}{Character}} \&}]{character,  }\item[{bool}]{mode }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca efekt specjalny zwiekszający obrażenia w trakcie stania na trawie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+{\em character} & aktualna postać \\
+\hline
+{\em mode} & tryb(włącz/wyłącz) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_item_aacacd012e9cf6539f70d659091fd2bd9}\label{class_item_aacacd012e9cf6539f70d659091fd2bd9}} 
+\index{Item@{Item}!Get\_class@{Get\_class}}
+\index{Get\_class@{Get\_class}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Get\_class()}{Get\_class()}}
+{\footnotesize\ttfamily int Item\+::\+Get\+\_\+class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwracająca klasę danego przedmiotu. 
+
+\begin{DoxyReturn}{Returns}
+klasa danego przedmiotu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_a19937c58253c648ddb75c336dd45bae6}\label{class_item_a19937c58253c648ddb75c336dd45bae6}} 
+\index{Item@{Item}!Get\_first\_stat@{Get\_first\_stat}}
+\index{Get\_first\_stat@{Get\_first\_stat}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Get\_first\_stat()}{Get\_first\_stat()}}
+{\footnotesize\ttfamily int Item\+::\+Get\+\_\+first\+\_\+stat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwracająca pierwszą statystykę danego przedmiotu. 
+
+\begin{DoxyReturn}{Returns}
+pierwsza statystyka danego przedmiotu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_a310f06a7398847cdfd81e690aa1bb2e4}\label{class_item_a310f06a7398847cdfd81e690aa1bb2e4}} 
+\index{Item@{Item}!Get\_seccond\_stat@{Get\_seccond\_stat}}
+\index{Get\_seccond\_stat@{Get\_seccond\_stat}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Get\_seccond\_stat()}{Get\_seccond\_stat()}}
+{\footnotesize\ttfamily int Item\+::\+Get\+\_\+seccond\+\_\+stat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwracająca drugą statystykę danego przedmiotu. 
+
+\begin{DoxyReturn}{Returns}
+druga statystyka danego przedmiotu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_aefb69fb0bb9e9d93da6abf2f65f466c7}\label{class_item_aefb69fb0bb9e9d93da6abf2f65f466c7}} 
+\index{Item@{Item}!Get\_type@{Get\_type}}
+\index{Get\_type@{Get\_type}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Get\_type()}{Get\_type()}}
+{\footnotesize\ttfamily int Item\+::\+Get\+\_\+type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwracająca typ przedmiotu. 
+
+\begin{DoxyReturn}{Returns}
+typ przedmiotu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_af9ebae9e5e49b72ebe9b999440c6fbf0}\label{class_item_af9ebae9e5e49b72ebe9b999440c6fbf0}} 
+\index{Item@{Item}!no\_effect@{no\_effect}}
+\index{no\_effect@{no\_effect}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{no\_effect()}{no\_effect()}}
+{\footnotesize\ttfamily void Item\+::no\+\_\+effect (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]},  }\item[{\mbox{\hyperlink{class_character}{Character}} \&}]{character,  }\item[{bool}]{mode }\end{DoxyParamCaption})}
+
+
+
+Funkcja nie wywołująca żadnego specjalnego efektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+{\em character} & aktualna postać \\
+\hline
+{\em mode} & tryb(włącz/wyłącz) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_item_a417d580267ebedac72f9bdcf6c24a41d}\label{class_item_a417d580267ebedac72f9bdcf6c24a41d}} 
+\index{Item@{Item}!Trigger@{Trigger}}
+\index{Trigger@{Trigger}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Trigger()}{Trigger()}}
+{\footnotesize\ttfamily void Item\+::\+Trigger (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]},  }\item[{\mbox{\hyperlink{class_character}{Character}} \&}]{character,  }\item[{bool}]{mode }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca efekt specjalny ekwipunku. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+{\em character} & aktualna postać \\
+\hline
+{\em mode} & tryb(włącz/wyłącz) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Item.\+h\item 
+Item.\+cpp\end{DoxyCompactItemize}

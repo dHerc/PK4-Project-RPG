@@ -1,0 +1,119 @@
+\hypertarget{class_overlay}{}\doxysection{Overlay Class Reference}
+\label{class_overlay}\index{Overlay@{Overlay}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_overlay_a2f9262262f3a168de80f3f3247ee87b3}\label{class_overlay_a2f9262262f3a168de80f3f3247ee87b3}} 
+{\bfseries Overlay} (\mbox{\hyperlink{class_renderer}{Renderer}} \&renderer, \mbox{\hyperlink{class_face}{Face}} \&face)
+\item 
+void \mbox{\hyperlink{class_overlay_a44acf4231e8fa301b4ba5eb546431708}{Draw}} (int char\+\_\+nr)
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca nakładkę ze statystykami postaci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_overlay_a6b011991f6458425679a63ecbca3d2e3}{Draw\+Bar}} (int type, float value, float max\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca paski z informacjami o stanie postaci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_overlay_a7b488d1d74102a6a496a3c5265612165}{Bind\+Number}} (char character)
+\begin{DoxyCompactList}\small\item\em Funkcja przypisująca teksturę numeru. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_overlay_a72510e9b0a993fa5e785570588cbaac2}{Draw\+Gold}} (int amount)
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca ilość posiadanego złota. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_overlay_afdff1c539511adba96dfe216c18de6c2}{Draw\+Lvl}} (int lvl)
+\item 
+void \mbox{\hyperlink{class_overlay_af55df8523cc1994c21b542fcdf6c0d30}{Draw\+Side\+Stacks}} (int amount)
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca ilość posiadanych ładunków broni przybocznej. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_overlay_a7b488d1d74102a6a496a3c5265612165}\label{class_overlay_a7b488d1d74102a6a496a3c5265612165}} 
+\index{Overlay@{Overlay}!BindNumber@{BindNumber}}
+\index{BindNumber@{BindNumber}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{BindNumber()}{BindNumber()}}
+{\footnotesize\ttfamily void Overlay\+::\+Bind\+Number (\begin{DoxyParamCaption}\item[{char}]{character }\end{DoxyParamCaption})}
+
+
+
+Funkcja przypisująca teksturę numeru. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & numer do przypisania \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_overlay_a44acf4231e8fa301b4ba5eb546431708}\label{class_overlay_a44acf4231e8fa301b4ba5eb546431708}} 
+\index{Overlay@{Overlay}!Draw@{Draw}}
+\index{Draw@{Draw}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Overlay\+::\+Draw (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+nr }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca nakładkę ze statystykami postaci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+nr} & ID aktualnej postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_overlay_a6b011991f6458425679a63ecbca3d2e3}\label{class_overlay_a6b011991f6458425679a63ecbca3d2e3}} 
+\index{Overlay@{Overlay}!DrawBar@{DrawBar}}
+\index{DrawBar@{DrawBar}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{DrawBar()}{DrawBar()}}
+{\footnotesize\ttfamily void Overlay\+::\+Draw\+Bar (\begin{DoxyParamCaption}\item[{int}]{type,  }\item[{float}]{value,  }\item[{float}]{max\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca paski z informacjami o stanie postaci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & typ paska \\
+\hline
+{\em value} & wartość aktualna \\
+\hline
+{\em max\+\_\+value} & wartość maksymalna \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_overlay_a72510e9b0a993fa5e785570588cbaac2}\label{class_overlay_a72510e9b0a993fa5e785570588cbaac2}} 
+\index{Overlay@{Overlay}!DrawGold@{DrawGold}}
+\index{DrawGold@{DrawGold}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{DrawGold()}{DrawGold()}}
+{\footnotesize\ttfamily void Overlay\+::\+Draw\+Gold (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca ilość posiadanego złota. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em amount} & ilość posiadanego złota \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_overlay_afdff1c539511adba96dfe216c18de6c2}\label{class_overlay_afdff1c539511adba96dfe216c18de6c2}} 
+\index{Overlay@{Overlay}!DrawLvl@{DrawLvl}}
+\index{DrawLvl@{DrawLvl}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{DrawLvl()}{DrawLvl()}}
+{\footnotesize\ttfamily void Overlay\+::\+Draw\+Lvl (\begin{DoxyParamCaption}\item[{int}]{lvl }\end{DoxyParamCaption})}
+
+/brief Funkcja rysująca aktualny poziom postaci 
+\begin{DoxyParams}{Parameters}
+{\em lvl} & aktualny poziom postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_overlay_af55df8523cc1994c21b542fcdf6c0d30}\label{class_overlay_af55df8523cc1994c21b542fcdf6c0d30}} 
+\index{Overlay@{Overlay}!DrawSideStacks@{DrawSideStacks}}
+\index{DrawSideStacks@{DrawSideStacks}!Overlay@{Overlay}}
+\doxysubsubsection{\texorpdfstring{DrawSideStacks()}{DrawSideStacks()}}
+{\footnotesize\ttfamily void Overlay\+::\+Draw\+Side\+Stacks (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca ilość posiadanych ładunków broni przybocznej. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em amount} & ilość ładunków broni przybocznej \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Overlay.\+h\item 
+Overlay.\+cpp\end{DoxyCompactItemize}

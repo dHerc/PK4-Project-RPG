@@ -1,0 +1,522 @@
+\hypertarget{class_game_logic}{}\doxysection{Game\+Logic Class Reference}
+\label{class_game_logic}\index{GameLogic@{GameLogic}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_logic_a4a3ba04c5d837b8213e42b1ebbd583d1}\label{class_game_logic_a4a3ba04c5d837b8213e42b1ebbd583d1}} 
+{\bfseries Game\+Logic} (\mbox{\hyperlink{class_character}{Character}} \&archer\+\_\+char, \mbox{\hyperlink{class_character}{Character}} \&warrior\+\_\+char, \mbox{\hyperlink{class_character}{Character}} \&mage\+\_\+char, \mbox{\hyperlink{class_character}{Character}} \&assasin\+\_\+char, \mbox{\hyperlink{class_background}{Background}} \&bg\+\_\+class, \mbox{\hyperlink{class_menu}{Menu}} \&menu, \mbox{\hyperlink{class_minimenu}{Minimenu}} \&minimenu, \mbox{\hyperlink{class_equipement}{Equipement}} \&equipement, \mbox{\hyperlink{class_story}{Story}} \&story, \mbox{\hyperlink{class_overlay}{Overlay}} \&overlay, \mbox{\hyperlink{class_renderer}{Renderer}} \&renderer, int \&lvl\+\_\+nr, int \&state, bool \&open\+\_\+menu, bool \&open\+\_\+equipement, int \&difficulty)
+\item 
+int \mbox{\hyperlink{class_game_logic_ac7132e78fc113572366d774099de3f5b}{Render\+Frame}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca całość gry. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{class_game_logic_a2db509da960cc52a8418ff31ff44519b}{Draw}} (list$<$ shared\+\_\+ptr$<$ T $>$$>$)
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca listę obiektów. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_ae8b94702a254fb2c91919eeb8a264f03}{Trigger\+EQ}} (bool mode, int char\+\_\+pos\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca efekt specjalny ekwipunku. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a39ae8a3f2b4b787deb9b4904659be0a6}{Movement}} (bool \&move\+\_\+right, bool \&move\+\_\+left, int \&turn\+\_\+right, int \&jump, float character\+\_\+offset\mbox{[}2\mbox{]}, int char\+\_\+pos\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca poruszanie się gracza. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a500a63d445fff87e96fcda2e098e0ed4}{Enemy\+\_\+\+Movement}} (int char\+\_\+pos\mbox{[}2\mbox{]})
+\item 
+void \mbox{\hyperlink{class_game_logic_a21de3c7b5eb388e6c26aa30dd2f32340}{Set\+Enemies}} ()
+\item 
+void \mbox{\hyperlink{class_game_logic_aaeefe167d7db42951a0c9b16f44b9b33}{Reset\+Enemies}} ()
+\item 
+void \mbox{\hyperlink{class_game_logic_a66af736dd17fd96477cd4098a92394a7}{Meele}} (int attack, int char\+\_\+pos\mbox{[}2\mbox{]}, int right)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca ataki podstawowe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a0fca804ca3d42556f93ea04a974a600e}{Activate\+Altars}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja aktuwująca ołtarze po rozwiązaniu zagadi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a488d66b36cfb580f2deefb8f93791c2d}{Trigger\+Boss}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja aktywująca umiejętności bossa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a3daf127e2f8de6498b1aee6b5597ce8c}{Interact}} (int attack, int char\+\_\+pos\mbox{[}2\mbox{]}, int right)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca interakcje z \mbox{\hyperlink{class_n_p_c}{N\+PC}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a9b6db89b0e95db7d2233b7a4029d7186}{Get\+Interact}} (int ID)
+\item 
+void \mbox{\hyperlink{class_game_logic_ab64c72efb7b42b886c1e24eca65e83b0}{Side\+Attack}} (float character\+\_\+offset\mbox{[}2\mbox{]}, int \&side\+\_\+attack, int char\+\_\+pos\mbox{[}2\mbox{]}, int right, bool blocking)
+\begin{DoxyCompactList}\small\item\em Funckja obsługująca użycie broni pobocznej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_af7293f0490d8849169d048dadd40ebf0}{Skill}} (float character\+\_\+offset\mbox{[}2\mbox{]}, int \&skill, int char\+\_\+pos\mbox{[}2\mbox{]}, int right, bool \&invisible)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca użycie umiejętności. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_ac637bf76ab2921db5587f62193964f4d}{Deal\+Damage}} (int ID, int ranged)
+\begin{DoxyCompactList}\small\item\em Funkcja zadająca obrażenia przeciwnikom. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_ac0c2cade7e71326e1cf2278145dd8391}{Take\+Damage}} (int dmg\+\_\+took)
+\begin{DoxyCompactList}\small\item\em Funkcja zadająca obrażenia aktualnej postaci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a0d47d45e4f3639dc7932d3fe1e24ebef}{Check\+Pickups}} (int char\+\_\+pos\mbox{[}2\mbox{]})
+\item 
+void \mbox{\hyperlink{class_game_logic_a98533651710eacfd7eab6f8c1e787050}{Pickup}} (int ID)
+\item 
+void \mbox{\hyperlink{class_game_logic_a807afe5769e5d24f35696118950218e4}{Initialize\+Enemy}} (float character\+\_\+offset\mbox{[}2\mbox{]}, double pos\+\_\+x, double pos\+\_\+y, string pathl, string pathr, int ID, int hp, int dmg, int exp, int gold, int lvl, int move\+\_\+pattern, int attack\+\_\+pattern)
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a2b3d42d0f0f0ed6ce0e585d05ec51c72}{Initialize\+Enemies}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca przeciwników. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a9781b22a849b9b7f8820691a714de778}{Initialize\+Drop}} (float character\+\_\+offset\mbox{[}2\mbox{]}, double pos\+\_\+x, double pos\+\_\+y, string pathl, int ID, int type, int amount)
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca przedmiot do podniesienia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a2271514a5b76063e0aa1175436af1903}{Initialize\+Drops}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\item 
+void \mbox{\hyperlink{class_game_logic_a45575d9d97e19503bb22473e0ac9eb4e}{Initialize\+N\+PC}} (float character\+\_\+offset\mbox{[}2\mbox{]}, double pos\+\_\+x, double pos\+\_\+y, string pathl, int ID, int interaction\+ID, int options\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca \mbox{\hyperlink{class_n_p_c}{N\+PC}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a5c44486edd3e20fdb82edf2792f92119}{Initialize\+N\+P\+Cs}} (float character\+\_\+offset\mbox{[}2\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca \mbox{\hyperlink{class_n_p_c}{N\+PC}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a45fa0d42935f5298828b4424c53f6adf}{Update\+Stats}} ()
+\item 
+void \mbox{\hyperlink{class_game_logic_aa622b447904bd9d6e7c27ebfb2f0e2d3}{Swap}} (int change)
+\begin{DoxyCompactList}\small\item\em Funkcja odpowiedzialna za zmianę postaci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a9a4b5af968acb090c0ca7a1690689078}{Regen}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja odpowiedzialna za regeneracje postaci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_logic_a7bfbf6c5db4bd62b59d0b8c8854305b2}{Restart}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_logic_a0fca804ca3d42556f93ea04a974a600e}\label{class_game_logic_a0fca804ca3d42556f93ea04a974a600e}} 
+\index{GameLogic@{GameLogic}!ActivateAltars@{ActivateAltars}}
+\index{ActivateAltars@{ActivateAltars}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{ActivateAltars()}{ActivateAltars()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Activate\+Altars (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja aktuwująca ołtarze po rozwiązaniu zagadi. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a0d47d45e4f3639dc7932d3fe1e24ebef}\label{class_game_logic_a0d47d45e4f3639dc7932d3fe1e24ebef}} 
+\index{GameLogic@{GameLogic}!CheckPickups@{CheckPickups}}
+\index{CheckPickups@{CheckPickups}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{CheckPickups()}{CheckPickups()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Check\+Pickups (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\textbackslash{}\+Funkcja sprawdzająca czy gracz może podnieść jakiś przedmiot 
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_ac637bf76ab2921db5587f62193964f4d}\label{class_game_logic_ac637bf76ab2921db5587f62193964f4d}} 
+\index{GameLogic@{GameLogic}!DealDamage@{DealDamage}}
+\index{DealDamage@{DealDamage}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{DealDamage()}{DealDamage()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Deal\+Damage (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{ranged }\end{DoxyParamCaption})}
+
+
+
+Funkcja zadająca obrażenia przeciwnikom. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & ID przeciwnika \\
+\hline
+{\em ranged} & czy był to atak dystansowy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a2db509da960cc52a8418ff31ff44519b}\label{class_game_logic_a2db509da960cc52a8418ff31ff44519b}} 
+\index{GameLogic@{GameLogic}!Draw@{Draw}}
+\index{Draw@{Draw}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void Game\+Logic\+::\+Draw (\begin{DoxyParamCaption}\item[{list$<$ shared\+\_\+ptr$<$ T $>$$>$}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funkcja rysująca listę obiektów. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & lista obiektów do narysowania \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a500a63d445fff87e96fcda2e098e0ed4}\label{class_game_logic_a500a63d445fff87e96fcda2e098e0ed4}} 
+\index{GameLogic@{GameLogic}!Enemy\_Movement@{Enemy\_Movement}}
+\index{Enemy\_Movement@{Enemy\_Movement}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Enemy\_Movement()}{Enemy\_Movement()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Enemy\+\_\+\+Movement (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\textbackslash{} Funkcja obsługująca poruszanie się przeciwników 
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja gracza \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a9b6db89b0e95db7d2233b7a4029d7186}\label{class_game_logic_a9b6db89b0e95db7d2233b7a4029d7186}} 
+\index{GameLogic@{GameLogic}!GetInteract@{GetInteract}}
+\index{GetInteract@{GetInteract}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{GetInteract()}{GetInteract()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Get\+Interact (\begin{DoxyParamCaption}\item[{int}]{ID }\end{DoxyParamCaption})}
+
+\textbackslash{}\+Funkcja pozystkująca informację o interakcji 
+\begin{DoxyParams}{Parameters}
+{\em ID} & ID postaci z którą nastąpiła interakcja \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a9781b22a849b9b7f8820691a714de778}\label{class_game_logic_a9781b22a849b9b7f8820691a714de778}} 
+\index{GameLogic@{GameLogic}!InitializeDrop@{InitializeDrop}}
+\index{InitializeDrop@{InitializeDrop}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeDrop()}{InitializeDrop()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+Drop (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{double}]{pos\+\_\+x,  }\item[{double}]{pos\+\_\+y,  }\item[{string}]{pathl,  }\item[{int}]{ID,  }\item[{int}]{type,  }\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca przedmiot do podniesienia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em pos\+\_\+x} & pozycja x przedmiotu \\
+\hline
+{\em pos\+\_\+y} & pozycja y przedmiotu \\
+\hline
+{\em pathl} & ścieżka do tekstury przdmiotu \\
+\hline
+{\em ID} & ID przedmiotu \\
+\hline
+{\em type} & typ przedmiotu \\
+\hline
+{\em amount} & ilość lub ID w wypadku przedmiotu ekwipunku \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a2271514a5b76063e0aa1175436af1903}\label{class_game_logic_a2271514a5b76063e0aa1175436af1903}} 
+\index{GameLogic@{GameLogic}!InitializeDrops@{InitializeDrops}}
+\index{InitializeDrops@{InitializeDrops}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeDrops()}{InitializeDrops()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+Drops (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\textbackslash{}\+Funkcja inicjalizująca przedmioty do podniesienia 
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie przedmiotu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a2b3d42d0f0f0ed6ce0e585d05ec51c72}\label{class_game_logic_a2b3d42d0f0f0ed6ce0e585d05ec51c72}} 
+\index{GameLogic@{GameLogic}!InitializeEnemies@{InitializeEnemies}}
+\index{InitializeEnemies@{InitializeEnemies}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeEnemies()}{InitializeEnemies()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+Enemies (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca przeciwników. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a807afe5769e5d24f35696118950218e4}\label{class_game_logic_a807afe5769e5d24f35696118950218e4}} 
+\index{GameLogic@{GameLogic}!InitializeEnemy@{InitializeEnemy}}
+\index{InitializeEnemy@{InitializeEnemy}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeEnemy()}{InitializeEnemy()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+Enemy (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{double}]{pos\+\_\+x,  }\item[{double}]{pos\+\_\+y,  }\item[{string}]{pathl,  }\item[{string}]{pathr,  }\item[{int}]{ID,  }\item[{int}]{hp,  }\item[{int}]{dmg,  }\item[{int}]{exp,  }\item[{int}]{gold,  }\item[{int}]{lvl,  }\item[{int}]{move\+\_\+pattern,  }\item[{int}]{attack\+\_\+pattern }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em pos\+\_\+x} & pozycja x przeciwnika \\
+\hline
+{\em pos\+\_\+y} & pozycja y przeciwnika \\
+\hline
+{\em pathl} & scieżka do tekstury przeciwnika obórconego w lewo \\
+\hline
+{\em pathr} & scieżka do tekstury przeciwnika obórconego w prawo \\
+\hline
+{\em ID} & ID przeciwnika \\
+\hline
+{\em hp} & zdrowie przeciwnika \\
+\hline
+{\em dmg} & obrażenia przeciwnika \\
+\hline
+{\em exp} & doświadczenie otrzymane za zabicie przeciwnika \\
+\hline
+{\em gold} & złoto otrzymane za zabicie przeciwnika \\
+\hline
+{\em lvl} & poziom przeciwnika \\
+\hline
+{\em move\+\_\+pattern} & ID schematu poruszania się przeciwnika \\
+\hline
+{\em attack\+\_\+pattern} & ID schematu ataku przeciwnika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a45575d9d97e19503bb22473e0ac9eb4e}\label{class_game_logic_a45575d9d97e19503bb22473e0ac9eb4e}} 
+\index{GameLogic@{GameLogic}!InitializeNPC@{InitializeNPC}}
+\index{InitializeNPC@{InitializeNPC}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeNPC()}{InitializeNPC()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+N\+PC (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{double}]{pos\+\_\+x,  }\item[{double}]{pos\+\_\+y,  }\item[{string}]{pathl,  }\item[{int}]{ID,  }\item[{int}]{interaction\+ID,  }\item[{int}]{options\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca \mbox{\hyperlink{class_n_p_c}{N\+PC}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em pos\+\_\+x} & pozycja x \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+{\em pos\+\_\+y} & pozycja y \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+{\em pathl} & ścieżka do tekstury \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+{\em ID} & ID \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+{\em interaction\+ID} & ID interakcji \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+{\em options} & opcje interakcji \mbox{\hyperlink{class_n_p_c}{N\+PC}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a5c44486edd3e20fdb82edf2792f92119}\label{class_game_logic_a5c44486edd3e20fdb82edf2792f92119}} 
+\index{GameLogic@{GameLogic}!InitializeNPCs@{InitializeNPCs}}
+\index{InitializeNPCs@{InitializeNPCs}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{InitializeNPCs()}{InitializeNPCs()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Initialize\+N\+P\+Cs (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca \mbox{\hyperlink{class_n_p_c}{N\+PC}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a3daf127e2f8de6498b1aee6b5597ce8c}\label{class_game_logic_a3daf127e2f8de6498b1aee6b5597ce8c}} 
+\index{GameLogic@{GameLogic}!Interact@{Interact}}
+\index{Interact@{Interact}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Interact()}{Interact()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Interact (\begin{DoxyParamCaption}\item[{int}]{attack,  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{right }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdzająca interakcje z \mbox{\hyperlink{class_n_p_c}{N\+PC}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em attack} & aktualny stan ataku \\
+\hline
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em right} & czy postać obrócona jest w prawo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a66af736dd17fd96477cd4098a92394a7}\label{class_game_logic_a66af736dd17fd96477cd4098a92394a7}} 
+\index{GameLogic@{GameLogic}!Meele@{Meele}}
+\index{Meele@{Meele}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Meele()}{Meele()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Meele (\begin{DoxyParamCaption}\item[{int}]{attack,  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{right }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca ataki podstawowe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em attack} & zmienna określająca aktualny stan ataku \\
+\hline
+{\em char\+\_\+pos} & pozycja gracza \\
+\hline
+{\em right} & czy gracz jest odwrócony w prawo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a39ae8a3f2b4b787deb9b4904659be0a6}\label{class_game_logic_a39ae8a3f2b4b787deb9b4904659be0a6}} 
+\index{GameLogic@{GameLogic}!Movement@{Movement}}
+\index{Movement@{Movement}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Movement()}{Movement()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Movement (\begin{DoxyParamCaption}\item[{bool \&}]{move\+\_\+right,  }\item[{bool \&}]{move\+\_\+left,  }\item[{int \&}]{turn\+\_\+right,  }\item[{int \&}]{jump,  }\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca poruszanie się gracza. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em move\+\_\+right} & czy gracz chce iść w prawo \\
+\hline
+{\em move\+\_\+left} & czy gracz chce iść w lewo \\
+\hline
+{\em turn\+\_\+right} & czy gracz jest obrócony w prawo \\
+\hline
+{\em jump} & czy gracz chce skoczyć \\
+\hline
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a98533651710eacfd7eab6f8c1e787050}\label{class_game_logic_a98533651710eacfd7eab6f8c1e787050}} 
+\index{GameLogic@{GameLogic}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Pickup (\begin{DoxyParamCaption}\item[{int}]{ID }\end{DoxyParamCaption})}
+
+\textbackslash{}\+Funkcja inicjująca podniesienie przedmiotu 
+\begin{DoxyParams}{Parameters}
+{\em ID} & ID podniesionego przedmiotu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a9a4b5af968acb090c0ca7a1690689078}\label{class_game_logic_a9a4b5af968acb090c0ca7a1690689078}} 
+\index{GameLogic@{GameLogic}!Regen@{Regen}}
+\index{Regen@{Regen}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Regen()}{Regen()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Regen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja odpowiedzialna za regeneracje postaci. 
+
+\mbox{\Hypertarget{class_game_logic_ac7132e78fc113572366d774099de3f5b}\label{class_game_logic_ac7132e78fc113572366d774099de3f5b}} 
+\index{GameLogic@{GameLogic}!RenderFrame@{RenderFrame}}
+\index{RenderFrame@{RenderFrame}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{RenderFrame()}{RenderFrame()}}
+{\footnotesize\ttfamily int Game\+Logic\+::\+Render\+Frame (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca całość gry. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+stan specjalny (0 -\/ nic / 1 -\/ wyjdź / 2 -\/ idź do następnego poziomu / 3 -\/ restartuj poziom) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_logic_aaeefe167d7db42951a0c9b16f44b9b33}\label{class_game_logic_aaeefe167d7db42951a0c9b16f44b9b33}} 
+\index{GameLogic@{GameLogic}!ResetEnemies@{ResetEnemies}}
+\index{ResetEnemies@{ResetEnemies}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{ResetEnemies()}{ResetEnemies()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Reset\+Enemies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+/brief Funkcja usuwająca kolizję przeciwników \mbox{\Hypertarget{class_game_logic_a7bfbf6c5db4bd62b59d0b8c8854305b2}\label{class_game_logic_a7bfbf6c5db4bd62b59d0b8c8854305b2}} 
+\index{GameLogic@{GameLogic}!Restart@{Restart}}
+\index{Restart@{Restart}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Restart()}{Restart()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Restart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+/brief Funkcja restartująca aktualny poziom \mbox{\Hypertarget{class_game_logic_a21de3c7b5eb388e6c26aa30dd2f32340}\label{class_game_logic_a21de3c7b5eb388e6c26aa30dd2f32340}} 
+\index{GameLogic@{GameLogic}!SetEnemies@{SetEnemies}}
+\index{SetEnemies@{SetEnemies}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{SetEnemies()}{SetEnemies()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Set\+Enemies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+/brief Funckja ustawiająca kolizję przeciwników \mbox{\Hypertarget{class_game_logic_ab64c72efb7b42b886c1e24eca65e83b0}\label{class_game_logic_ab64c72efb7b42b886c1e24eca65e83b0}} 
+\index{GameLogic@{GameLogic}!SideAttack@{SideAttack}}
+\index{SideAttack@{SideAttack}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{SideAttack()}{SideAttack()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Side\+Attack (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{int \&}]{side\+\_\+attack,  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{right,  }\item[{bool}]{blocking }\end{DoxyParamCaption})}
+
+
+
+Funckja obsługująca użycie broni pobocznej. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em side\+\_\+attack} & aktualny stan ataku pobocznego \\
+\hline
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em right} & czy postać jest obrócona w prawo \\
+\hline
+{\em blocking} & czy postać blokuje \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_af7293f0490d8849169d048dadd40ebf0}\label{class_game_logic_af7293f0490d8849169d048dadd40ebf0}} 
+\index{GameLogic@{GameLogic}!Skill@{Skill}}
+\index{Skill@{Skill}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Skill()}{Skill()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Skill (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]},  }\item[{int \&}]{skill,  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{right,  }\item[{bool \&}]{invisible }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca użycie umiejętności. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+{\em skill} & aktualny stan zaklęcia \\
+\hline
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em right} & czy postac obórcona jest w prawo \\
+\hline
+{\em invisible} & czy postać jest niewidzialna \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_aa622b447904bd9d6e7c27ebfb2f0e2d3}\label{class_game_logic_aa622b447904bd9d6e7c27ebfb2f0e2d3}} 
+\index{GameLogic@{GameLogic}!Swap@{Swap}}
+\index{Swap@{Swap}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{Swap()}{Swap()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Swap (\begin{DoxyParamCaption}\item[{int}]{change }\end{DoxyParamCaption})}
+
+
+
+Funkcja odpowiedzialna za zmianę postaci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em change} & sygnał inicjalizujący zmianę \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_ac0c2cade7e71326e1cf2278145dd8391}\label{class_game_logic_ac0c2cade7e71326e1cf2278145dd8391}} 
+\index{GameLogic@{GameLogic}!TakeDamage@{TakeDamage}}
+\index{TakeDamage@{TakeDamage}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{TakeDamage()}{TakeDamage()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Take\+Damage (\begin{DoxyParamCaption}\item[{int}]{dmg\+\_\+took }\end{DoxyParamCaption})}
+
+
+
+Funkcja zadająca obrażenia aktualnej postaci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dmg\+\_\+took} & ilość otrzymanych obrażeń \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a488d66b36cfb580f2deefb8f93791c2d}\label{class_game_logic_a488d66b36cfb580f2deefb8f93791c2d}} 
+\index{GameLogic@{GameLogic}!TriggerBoss@{TriggerBoss}}
+\index{TriggerBoss@{TriggerBoss}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{TriggerBoss()}{TriggerBoss()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Trigger\+Boss (\begin{DoxyParamCaption}\item[{float}]{character\+\_\+offset\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja aktywująca umiejętności bossa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\+\_\+offset} & przemieszczenie postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_ae8b94702a254fb2c91919eeb8a264f03}\label{class_game_logic_ae8b94702a254fb2c91919eeb8a264f03}} 
+\index{GameLogic@{GameLogic}!TriggerEQ@{TriggerEQ}}
+\index{TriggerEQ@{TriggerEQ}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{TriggerEQ()}{TriggerEQ()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Trigger\+EQ (\begin{DoxyParamCaption}\item[{bool}]{mode,  }\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca efekt specjalny ekwipunku. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & zmienna określająca czy efekt ma zpstać włączony czy wyłączony \\
+\hline
+{\em char\+\_\+pos} & położenie gracza \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_logic_a45fa0d42935f5298828b4424c53f6adf}\label{class_game_logic_a45fa0d42935f5298828b4424c53f6adf}} 
+\index{GameLogic@{GameLogic}!UpdateStats@{UpdateStats}}
+\index{UpdateStats@{UpdateStats}!GameLogic@{GameLogic}}
+\doxysubsubsection{\texorpdfstring{UpdateStats()}{UpdateStats()}}
+{\footnotesize\ttfamily void Game\+Logic\+::\+Update\+Stats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+/brief Funkcja uaktualniająca statystyki po zmianie przedmiotu 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game\+Logic.\+h\item 
+Game\+Logic.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,410 @@
+\begin{theindex}
+
+  \item {ActivateAltars}
+    \subitem {GameLogic}, \hyperpage{19}
+  \item {Add\_item}
+    \subitem {Owned}, \hyperpage{42}
+  \item {AddBuffer}
+    \subitem {VertexArray}, \hyperpage{52}
+  \item {AddItem}
+    \subitem {Equipement}, \hyperpage{15}
+  \item {atk\_basic}
+    \subitem {Enemies}, \hyperpage{10}
+  \item {atk\_disabled}
+    \subitem {Enemies}, \hyperpage{10}
+  \item {Attack}
+    \subitem {Enemies}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Background}, \hyperpage{5}
+    \subitem {Draw}, \hyperpage{5}
+  \item {Bind}
+    \subitem {IndexBuffer}, \hyperpage{29}
+    \subitem {Skills}, \hyperpage{47}
+    \subitem {Texture}, \hyperpage{50}
+    \subitem {VertexArray}, \hyperpage{52}
+    \subitem {VertexBuffer}, \hyperpage{53}
+  \item {Bind\_description}
+    \subitem {Item}, \hyperpage{30}
+  \item {Bind\_texture}
+    \subitem {Item}, \hyperpage{30}
+  \item {BindNumber}
+    \subitem {Overlay}, \hyperpage{39}
+  \item {bonus\_damage\_on\_grass}
+    \subitem {Item}, \hyperpage{30}
+  \item {Boss}, \hyperpage{5}
+    \subitem {DarkMage}, \hyperpage{6}
+    \subitem {Trigger}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Change\_slot}
+    \subitem {Equipement}, \hyperpage{15}
+  \item {ChangeSelectedItem}
+    \subitem {Equipement}, \hyperpage{15}
+    \subitem {Minimenu}, \hyperpage{34}
+  \item {Character}, \hyperpage{7}
+  \item {CheckPickups}
+    \subitem {GameLogic}, \hyperpage{20}
+  \item {CheckPrice}
+    \subitem {Minimenu}, \hyperpage{34}
+  \item {Clear}
+    \subitem {Renderer}, \hyperpage{43}
+
+  \indexspace
+
+  \item {DarkMage}
+    \subitem {Boss}, \hyperpage{6}
+  \item {DealDamage}
+    \subitem {GameLogic}, \hyperpage{20}
+  \item {Description}, \hyperpage{7}
+    \subitem {Draw}, \hyperpage{8}
+  \item {Draw}
+    \subitem {Background}, \hyperpage{5}
+    \subitem {Description}, \hyperpage{8}
+    \subitem {Entities}, \hyperpage{13}
+    \subitem {Equipement}, \hyperpage{15}
+    \subitem {Face}, \hyperpage{18}
+    \subitem {GameLogic}, \hyperpage{20}
+    \subitem {Menu}, \hyperpage{32}
+    \subitem {Minimenu}, \hyperpage{35}
+    \subitem {Overlay}, \hyperpage{40}
+    \subitem {Renderer}, \hyperpage{44}
+    \subitem {Story}, \hyperpage{49}
+  \item {Draw\_background}
+    \subitem {Menu}, \hyperpage{33}
+    \subitem {Minimenu}, \hyperpage{35}
+  \item {Draw\_buttons}
+    \subitem {Menu}, \hyperpage{33}
+    \subitem {Minimenu}, \hyperpage{35}
+  \item {Draw\_item\_shop}
+    \subitem {Minimenu}, \hyperpage{36}
+  \item {Draw\_options\_buttons}
+    \subitem {Menu}, \hyperpage{33}
+  \item {Draw\_selection}
+    \subitem {Equipement}, \hyperpage{16}
+  \item {DrawBar}
+    \subitem {Overlay}, \hyperpage{40}
+  \item {DrawGold}
+    \subitem {Overlay}, \hyperpage{40}
+  \item {DrawLvl}
+    \subitem {Overlay}, \hyperpage{41}
+  \item {DrawSideStacks}
+    \subitem {Overlay}, \hyperpage{41}
+  \item {Drops}, \hyperpage{8}
+    \subitem {GetAmountOrID}, \hyperpage{8}
+    \subitem {GetType}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Enemies}, \hyperpage{9}
+    \subitem {atk\_basic}, \hyperpage{10}
+    \subitem {atk\_disabled}, \hyperpage{10}
+    \subitem {Attack}, \hyperpage{10}
+    \subitem {mov\_basic}, \hyperpage{11}
+    \subitem {mov\_free}, \hyperpage{11}
+    \subitem {mov\_still}, \hyperpage{11}
+    \subitem {Move}, \hyperpage{11}
+  \item {Enemy\_Movement}
+    \subitem {GameLogic}, \hyperpage{21}
+  \item {Entities}, \hyperpage{12}
+    \subitem {Draw}, \hyperpage{13}
+    \subitem {Get\_ID}, \hyperpage{13}
+    \subitem {Get\_x}, \hyperpage{13}
+    \subitem {Get\_y}, \hyperpage{13}
+    \subitem {Set\_x}, \hyperpage{13}
+    \subitem {Set\_y}, \hyperpage{14}
+  \item {Equip}
+    \subitem {Equipement}, \hyperpage{16}
+  \item {Equipement}, \hyperpage{14}
+    \subitem {AddItem}, \hyperpage{15}
+    \subitem {Change\_slot}, \hyperpage{15}
+    \subitem {ChangeSelectedItem}, \hyperpage{15}
+    \subitem {Draw}, \hyperpage{15}
+    \subitem {Draw\_selection}, \hyperpage{16}
+    \subitem {Equip}, \hyperpage{16}
+    \subitem {Select\_slot}, \hyperpage{16}
+    \subitem {Selection\_armour}, \hyperpage{16}
+    \subitem {Selection\_sidearm}, \hyperpage{17}
+    \subitem {Selection\_skills}, \hyperpage{17}
+    \subitem {Selection\_weapon}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Face}, \hyperpage{18}
+    \subitem {Draw}, \hyperpage{18}
+
+  \indexspace
+
+  \item {GameLogic}, \hyperpage{18}
+    \subitem {ActivateAltars}, \hyperpage{19}
+    \subitem {CheckPickups}, \hyperpage{20}
+    \subitem {DealDamage}, \hyperpage{20}
+    \subitem {Draw}, \hyperpage{20}
+    \subitem {Enemy\_Movement}, \hyperpage{21}
+    \subitem {GetInteract}, \hyperpage{21}
+    \subitem {InitializeDrop}, \hyperpage{21}
+    \subitem {InitializeDrops}, \hyperpage{22}
+    \subitem {InitializeEnemies}, \hyperpage{22}
+    \subitem {InitializeEnemy}, \hyperpage{22}
+    \subitem {InitializeNPC}, \hyperpage{23}
+    \subitem {InitializeNPCs}, \hyperpage{24}
+    \subitem {Interact}, \hyperpage{24}
+    \subitem {Meele}, \hyperpage{24}
+    \subitem {Movement}, \hyperpage{24}
+    \subitem {Pickup}, \hyperpage{25}
+    \subitem {Regen}, \hyperpage{25}
+    \subitem {RenderFrame}, \hyperpage{25}
+    \subitem {ResetEnemies}, \hyperpage{26}
+    \subitem {Restart}, \hyperpage{26}
+    \subitem {SetEnemies}, \hyperpage{26}
+    \subitem {SideAttack}, \hyperpage{26}
+    \subitem {Skill}, \hyperpage{27}
+    \subitem {Swap}, \hyperpage{27}
+    \subitem {TakeDamage}, \hyperpage{27}
+    \subitem {TriggerBoss}, \hyperpage{27}
+    \subitem {TriggerEQ}, \hyperpage{28}
+    \subitem {UpdateStats}, \hyperpage{28}
+  \item {Get\_class}
+    \subitem {Item}, \hyperpage{30}
+  \item {Get\_first\_stat}
+    \subitem {Item}, \hyperpage{30}
+  \item {Get\_ID}
+    \subitem {Entities}, \hyperpage{13}
+  \item {Get\_menu\_items}
+    \subitem {NPC}, \hyperpage{37}
+  \item {Get\_menu\_sidearm}
+    \subitem {NPC}, \hyperpage{38}
+  \item {Get\_menu\_story}
+    \subitem {NPC}, \hyperpage{38}
+  \item {Get\_seccond\_stat}
+    \subitem {Item}, \hyperpage{31}
+  \item {Get\_type}
+    \subitem {Item}, \hyperpage{31}
+  \item {Get\_x}
+    \subitem {Entities}, \hyperpage{13}
+  \item {Get\_y}
+    \subitem {Entities}, \hyperpage{13}
+  \item {GetAmountOrID}
+    \subitem {Drops}, \hyperpage{8}
+  \item {GetBPP}
+    \subitem {Texture}, \hyperpage{51}
+  \item {GetConfirmation}
+    \subitem {Minimenu}, \hyperpage{36}
+  \item {GetCount}
+    \subitem {IndexBuffer}, \hyperpage{29}
+  \item {GetDamage}
+    \subitem {Projectiles}, \hyperpage{42}
+  \item {GetHeight}
+    \subitem {Texture}, \hyperpage{51}
+  \item {GetInteract}
+    \subitem {GameLogic}, \hyperpage{21}
+  \item {GetItem}
+    \subitem {Minimenu}, \hyperpage{36}
+  \item {GetType}
+    \subitem {Drops}, \hyperpage{9}
+  \item {GetWidth}
+    \subitem {Texture}, \hyperpage{51}
+
+  \indexspace
+
+  \item {IndexBuffer}, \hyperpage{28}
+    \subitem {Bind}, \hyperpage{29}
+    \subitem {GetCount}, \hyperpage{29}
+    \subitem {Unbind}, \hyperpage{29}
+  \item {InitializeDrop}
+    \subitem {GameLogic}, \hyperpage{21}
+  \item {InitializeDrops}
+    \subitem {GameLogic}, \hyperpage{22}
+  \item {InitializeEnemies}
+    \subitem {GameLogic}, \hyperpage{22}
+  \item {InitializeEnemy}
+    \subitem {GameLogic}, \hyperpage{22}
+  \item {InitializeNPC}
+    \subitem {GameLogic}, \hyperpage{23}
+  \item {InitializeNPCs}
+    \subitem {GameLogic}, \hyperpage{24}
+  \item {Interact}
+    \subitem {GameLogic}, \hyperpage{24}
+    \subitem {NPC}, \hyperpage{38}
+  \item {Item}, \hyperpage{29}
+    \subitem {Bind\_description}, \hyperpage{30}
+    \subitem {Bind\_texture}, \hyperpage{30}
+    \subitem {bonus\_damage\_on\_grass}, \hyperpage{30}
+    \subitem {Get\_class}, \hyperpage{30}
+    \subitem {Get\_first\_stat}, \hyperpage{30}
+    \subitem {Get\_seccond\_stat}, \hyperpage{31}
+    \subitem {Get\_type}, \hyperpage{31}
+    \subitem {no\_effect}, \hyperpage{31}
+    \subitem {Trigger}, \hyperpage{32}
+
+  \indexspace
+
+  \item {Meele}
+    \subitem {GameLogic}, \hyperpage{24}
+  \item {Menu}, \hyperpage{32}
+    \subitem {Draw}, \hyperpage{32}
+    \subitem {Draw\_background}, \hyperpage{33}
+    \subitem {Draw\_buttons}, \hyperpage{33}
+    \subitem {Draw\_options\_buttons}, \hyperpage{33}
+  \item {Minimenu}, \hyperpage{34}
+    \subitem {ChangeSelectedItem}, \hyperpage{34}
+    \subitem {CheckPrice}, \hyperpage{34}
+    \subitem {Draw}, \hyperpage{35}
+    \subitem {Draw\_background}, \hyperpage{35}
+    \subitem {Draw\_buttons}, \hyperpage{35}
+    \subitem {Draw\_item\_shop}, \hyperpage{36}
+    \subitem {GetConfirmation}, \hyperpage{36}
+    \subitem {GetItem}, \hyperpage{36}
+    \subitem {Set\_item\_list}, \hyperpage{36}
+  \item {mov\_basic}
+    \subitem {Enemies}, \hyperpage{11}
+  \item {mov\_free}
+    \subitem {Enemies}, \hyperpage{11}
+  \item {mov\_still}
+    \subitem {Enemies}, \hyperpage{11}
+  \item {Move}
+    \subitem {Enemies}, \hyperpage{11}
+    \subitem {Projectiles}, \hyperpage{43}
+  \item {Movement}
+    \subitem {GameLogic}, \hyperpage{24}
+
+  \indexspace
+
+  \item {no\_effect}
+    \subitem {Item}, \hyperpage{31}
+  \item {no\_interact}
+    \subitem {NPC}, \hyperpage{38}
+  \item {NPC}, \hyperpage{37}
+    \subitem {Get\_menu\_items}, \hyperpage{37}
+    \subitem {Get\_menu\_sidearm}, \hyperpage{38}
+    \subitem {Get\_menu\_story}, \hyperpage{38}
+    \subitem {Interact}, \hyperpage{38}
+    \subitem {no\_interact}, \hyperpage{38}
+    \subitem {open\_mini\_menu}, \hyperpage{39}
+
+  \indexspace
+
+  \item {open\_mini\_menu}
+    \subitem {NPC}, \hyperpage{39}
+  \item {Overlay}, \hyperpage{39}
+    \subitem {BindNumber}, \hyperpage{39}
+    \subitem {Draw}, \hyperpage{40}
+    \subitem {DrawBar}, \hyperpage{40}
+    \subitem {DrawGold}, \hyperpage{40}
+    \subitem {DrawLvl}, \hyperpage{41}
+    \subitem {DrawSideStacks}, \hyperpage{41}
+  \item {Owned}, \hyperpage{41}
+    \subitem {Add\_item}, \hyperpage{42}
+
+  \indexspace
+
+  \item {Pickup}
+    \subitem {GameLogic}, \hyperpage{25}
+  \item {Projectiles}, \hyperpage{42}
+    \subitem {GetDamage}, \hyperpage{42}
+    \subitem {Move}, \hyperpage{43}
+
+  \indexspace
+
+  \item {Regen}
+    \subitem {GameLogic}, \hyperpage{25}
+  \item {Renderer}, \hyperpage{43}
+    \subitem {Clear}, \hyperpage{43}
+    \subitem {Draw}, \hyperpage{44}
+  \item {RenderFrame}
+    \subitem {GameLogic}, \hyperpage{25}
+  \item {ResetEnemies}
+    \subitem {GameLogic}, \hyperpage{26}
+  \item {Restart}
+    \subitem {GameLogic}, \hyperpage{26}
+
+  \indexspace
+
+  \item {Select\_slot}
+    \subitem {Equipement}, \hyperpage{16}
+  \item {Selection\_armour}
+    \subitem {Equipement}, \hyperpage{16}
+  \item {Selection\_sidearm}
+    \subitem {Equipement}, \hyperpage{17}
+  \item {Selection\_skills}
+    \subitem {Equipement}, \hyperpage{17}
+  \item {Selection\_weapon}
+    \subitem {Equipement}, \hyperpage{17}
+  \item {Set\_item\_list}
+    \subitem {Minimenu}, \hyperpage{36}
+  \item {Set\_x}
+    \subitem {Entities}, \hyperpage{13}
+  \item {Set\_y}
+    \subitem {Entities}, \hyperpage{14}
+  \item {SetEnemies}
+    \subitem {GameLogic}, \hyperpage{26}
+  \item {SetUniform1i}
+    \subitem {Shader}, \hyperpage{44}
+  \item {SetUniform2f}
+    \subitem {Shader}, \hyperpage{46}
+  \item {SetUniform4f}
+    \subitem {Shader}, \hyperpage{46}
+  \item {Shader}, \hyperpage{44}
+    \subitem {SetUniform1i}, \hyperpage{44}
+    \subitem {SetUniform2f}, \hyperpage{46}
+    \subitem {SetUniform4f}, \hyperpage{46}
+  \item {ShaderProgramSource}, \hyperpage{47}
+  \item {SideAttack}
+    \subitem {GameLogic}, \hyperpage{26}
+  \item {Skill}
+    \subitem {GameLogic}, \hyperpage{27}
+  \item {Skills}, \hyperpage{47}
+    \subitem {Bind}, \hyperpage{47}
+  \item {Stats}, \hyperpage{47}
+  \item {stbi\_io\_callbacks}, \hyperpage{48}
+  \item {Story}, \hyperpage{49}
+    \subitem {Draw}, \hyperpage{49}
+    \subitem {Story}, \hyperpage{49}
+    \subitem {Trigger}, \hyperpage{50}
+  \item {Swap}
+    \subitem {GameLogic}, \hyperpage{27}
+
+  \indexspace
+
+  \item {TakeDamage}
+    \subitem {GameLogic}, \hyperpage{27}
+  \item {Texture}, \hyperpage{50}
+    \subitem {Bind}, \hyperpage{50}
+    \subitem {GetBPP}, \hyperpage{51}
+    \subitem {GetHeight}, \hyperpage{51}
+    \subitem {GetWidth}, \hyperpage{51}
+    \subitem {Unbind}, \hyperpage{51}
+  \item {Trigger}
+    \subitem {Boss}, \hyperpage{6}
+    \subitem {Item}, \hyperpage{32}
+    \subitem {Story}, \hyperpage{50}
+  \item {TriggerBoss}
+    \subitem {GameLogic}, \hyperpage{27}
+  \item {TriggerEQ}
+    \subitem {GameLogic}, \hyperpage{28}
+
+  \indexspace
+
+  \item {Unbind}
+    \subitem {IndexBuffer}, \hyperpage{29}
+    \subitem {Texture}, \hyperpage{51}
+    \subitem {VertexArray}, \hyperpage{52}
+    \subitem {VertexBuffer}, \hyperpage{53}
+  \item {UpdateStats}
+    \subitem {GameLogic}, \hyperpage{28}
+
+  \indexspace
+
+  \item {VertexArray}, \hyperpage{52}
+    \subitem {AddBuffer}, \hyperpage{52}
+    \subitem {Bind}, \hyperpage{52}
+    \subitem {Unbind}, \hyperpage{52}
+  \item {VertexBuffer}, \hyperpage{53}
+    \subitem {Bind}, \hyperpage{53}
+    \subitem {Unbind}, \hyperpage{53}
+  \item {VertexBufferElement}, \hyperpage{53}
+  \item {VertexBufferLayout}, \hyperpage{54}
+
+\end{theindex}

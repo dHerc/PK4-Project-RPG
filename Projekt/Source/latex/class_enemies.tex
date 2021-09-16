@@ -1,0 +1,157 @@
+\hypertarget{class_enemies}{}\doxysection{Enemies Class Reference}
+\label{class_enemies}\index{Enemies@{Enemies}}
+Inheritance diagram for Enemies\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_enemies}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_enemies_afd4f81ffceca07938c48e09e5721525b}\label{class_enemies_afd4f81ffceca07938c48e09e5721525b}} 
+{\bfseries Enemies} (float \&character\+\_\+offset\+\_\+x, float \&character\+\_\+offset\+\_\+y, double pos\+\_\+x, double pos\+\_\+y, string pathl, string pathr, int ID, \mbox{\hyperlink{class_renderer}{Renderer}} \&renderer, int hp, int dmg, int exp, int gold, int lvl, int move\+\_\+patern, int attack\+\_\+patern)
+\item 
+void \mbox{\hyperlink{class_enemies_abaa0737479123fc217f069d48e8dedb1}{Move}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca funkcję poruszania się przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_a895c6519519f7bdd08df88dd0af57bd5}{Attack}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int \&damage\+\_\+taken)
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca funkcję atakowania przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_a1fdd333895cefd3a20440c66b6433a97}{mov\+\_\+still}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca brak poruszania się przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_a54f1ec7c41b19a4262a71fae5de507c5}{mov\+\_\+basic}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca bazowe poruszanie się przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_a7845610ba1b85646b950ad82b43ad85e}{mov\+\_\+free}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca poruszanie się przeciwnika bez ograniczeń \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_acb54e7d74ec20a30fc152d9e19a64a0f}{atk\+\_\+disabled}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int \&damage\+\_\+taken)
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca brak atakowania przeciwnika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemies_a06573e118fc4f5f77441ef50100186cb}{atk\+\_\+basic}} (int char\+\_\+pos\mbox{[}2\mbox{]}, int \&damage\+\_\+taken)
+\begin{DoxyCompactList}\small\item\em Funkcja wywołująca bazowe atakowanie przeciwnika. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemies_a06573e118fc4f5f77441ef50100186cb}\label{class_enemies_a06573e118fc4f5f77441ef50100186cb}} 
+\index{Enemies@{Enemies}!atk\_basic@{atk\_basic}}
+\index{atk\_basic@{atk\_basic}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{atk\_basic()}{atk\_basic()}}
+{\footnotesize\ttfamily void Enemies\+::atk\+\_\+basic (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int \&}]{damage\+\_\+taken }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca bazowe atakowanie przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em damage\+\_\+taken} & obrażenia otrzymane przez postać \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_acb54e7d74ec20a30fc152d9e19a64a0f}\label{class_enemies_acb54e7d74ec20a30fc152d9e19a64a0f}} 
+\index{Enemies@{Enemies}!atk\_disabled@{atk\_disabled}}
+\index{atk\_disabled@{atk\_disabled}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{atk\_disabled()}{atk\_disabled()}}
+{\footnotesize\ttfamily void Enemies\+::atk\+\_\+disabled (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int \&}]{damage\+\_\+taken }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca brak atakowania przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em damage\+\_\+taken} & obrażenia otrzymane przez postać \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_a895c6519519f7bdd08df88dd0af57bd5}\label{class_enemies_a895c6519519f7bdd08df88dd0af57bd5}} 
+\index{Enemies@{Enemies}!Attack@{Attack}}
+\index{Attack@{Attack}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{Attack()}{Attack()}}
+{\footnotesize\ttfamily void Enemies\+::\+Attack (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int \&}]{damage\+\_\+taken }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca funkcję atakowania przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em damage\+\_\+taken} & obrażenia otrzymane przez postać \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_a54f1ec7c41b19a4262a71fae5de507c5}\label{class_enemies_a54f1ec7c41b19a4262a71fae5de507c5}} 
+\index{Enemies@{Enemies}!mov\_basic@{mov\_basic}}
+\index{mov\_basic@{mov\_basic}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{mov\_basic()}{mov\_basic()}}
+{\footnotesize\ttfamily void Enemies\+::mov\+\_\+basic (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca bazowe poruszanie się przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_a7845610ba1b85646b950ad82b43ad85e}\label{class_enemies_a7845610ba1b85646b950ad82b43ad85e}} 
+\index{Enemies@{Enemies}!mov\_free@{mov\_free}}
+\index{mov\_free@{mov\_free}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{mov\_free()}{mov\_free()}}
+{\footnotesize\ttfamily void Enemies\+::mov\+\_\+free (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca poruszanie się przeciwnika bez ograniczeń 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_a1fdd333895cefd3a20440c66b6433a97}\label{class_enemies_a1fdd333895cefd3a20440c66b6433a97}} 
+\index{Enemies@{Enemies}!mov\_still@{mov\_still}}
+\index{mov\_still@{mov\_still}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{mov\_still()}{mov\_still()}}
+{\footnotesize\ttfamily void Enemies\+::mov\+\_\+still (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca brak poruszania się przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemies_abaa0737479123fc217f069d48e8dedb1}\label{class_enemies_abaa0737479123fc217f069d48e8dedb1}} 
+\index{Enemies@{Enemies}!Move@{Move}}
+\index{Move@{Move}!Enemies@{Enemies}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Enemies\+::\+Move (\begin{DoxyParamCaption}\item[{int}]{char\+\_\+pos\mbox{[}2\mbox{]},  }\item[{int}]{world\mbox{[}1920\mbox{]}\mbox{[}216\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywołująca funkcję poruszania się przeciwnika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char\+\_\+pos} & pozycja postaci \\
+\hline
+{\em world} & zmienna zawierająca informacje o świecie \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Enemies.\+h\item 
+Enemies.\+cpp\end{DoxyCompactItemize}
